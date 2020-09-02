@@ -18,7 +18,8 @@ To make the blocks i of-course had to make them with 2D arrays, so I got all the
 		Z_BLOCK_TEMPLATE,
 		INVALID
 	}
-After that, I made a boolean function called 'drawBlockTemplate`, the parameters were:
+
+After that, I made a boolean function called drawBlockTemplate, the parameters were:
 
 `bool drawBlockTemplate(char grid[24][10], TEMPLATES t, int row, int col)`
 **Note: grid[24][10] is just essentially playGrid**
