@@ -1,3 +1,3 @@
-# Welcome to my blog
+# [ghostly-developer]
 
-I'm glad you are here. I plan to talk about ...
+Well hello there, i'm a beginner software developer.
