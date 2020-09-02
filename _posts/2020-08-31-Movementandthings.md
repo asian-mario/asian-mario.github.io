@@ -105,6 +105,7 @@ Lets first start off with moving to the right:
 
 				}
 		}
+
 Here I used raylib's key detection to determine if the user pressed the specified key or not, the first part of this piece of code would decide if you have enough space to move (e.g ig they hit the wall on the right side of the playGrid) as you can I checked every column and every row for 'x' and see if they were at a certain column, if they were in that column it wouldn't do anything and move on. If it had space it would move the 'x' one column to the right and clear the previous column the 'x' was in.
 
 Now, I won't show the code for moving to the left since you can visualize from the code that its essentially moving the other way.
@@ -121,6 +122,7 @@ Finally, the insta drop:
 				timePerDrop = 0.0;
 			}
 		}
+
 Ignore the 'fastMeme' in the if statement, it was part of a joke feature that isn't part of my repo. So this could would change timePerDrop to '0.0' meaning it would drop instantly. Well thats it for today and this is the last checklist for today.
 
 ## List Of Tasks That Have Been Completed
