@@ -8,6 +8,6 @@ description: > # this means to ignore newlines until "baseurl:"
   I will regularly update this blog on what i learned, made or just my general thoughts.
 
 # social links
-github_username:  https://github.com/ghostly-developer
+github_username:  ghostly-developer
 
 show_excerpts: true # set to false to remove excerpts on the homepage
