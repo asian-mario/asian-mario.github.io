@@ -2,7 +2,7 @@
 title: "Raylib-Tetris: Hit Detection"
 date: 2020-08-28
 ---
-## Raylib-Tetris: Hit Detection
+## Making Walls Into Actual Walls
 Following from the previous post, when the block hits the bottom it just goes straight through, so i have made a plan. The 2D array that i use are 24 rows tall and 10 rows wide, (note: i will call the arrays playGrid in this post and future posts) so i decided that if the 'x' on the playGrid hits the 24th row it will stop moving by changing them into another character. For example:
 
  
