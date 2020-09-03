@@ -2,7 +2,7 @@
 title: "Raylib-Tetris: Spawning and Movement"
 date: 2020-08-29
 ---
-## Raylib-Tetris: Spawning and Movement (29 AUG - 30 SEPT) 
+## Raylib-Tetris: Spawning and Movement (29 AUG - 30 AUG) 
 After basic hit detection, auto-moving the blocks and basic 'spawning', I got onto the basic fundamentals of tetris, spawning the blocks and moving them.
 ### Arraysception
 To make the blocks i of-course had to make them with 2D arrays, so I got all the images of tetrominos and made them in a variable which i called `const char TEMPLATES_ARR[6][2][4]`, I would have 6 2D arrays which had 2 rows and was 4 columns wide. Next, I would focus on actually spawning these arrays inside the playGrid, so what i did was make a enum class called 'TEMPLATES'. I would then name each template the same name as their tetromino blocks, e.g `S_BLOCK_TEMPLATE`, here is the full list of template names (I had Invalid templates to essentially say it wasnt possible to spawn it, will be explained further) :
