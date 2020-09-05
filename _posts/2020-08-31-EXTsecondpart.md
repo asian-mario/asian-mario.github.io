@@ -1,6 +1,6 @@
 ---
 title: "Raylib-Tetris: Showing Next Blocks And Dark Mode"
-date: 2020-08-31
+date: 2020-09-01
 ---
 ## Raylib-Tetris: Showing Next Blocks And Dark Mode (AUG 31 EXT 2)
 So let's start off with the simple things, I originally had a white backround and a black grid but I wanted it to be inverted which was a pretty simple thing to do, I just changed the color inside the the DrawRectangleLines function for the grid to white and the backround to black, it may seem unnecessary but at least it looks good. I've also seem some tetris games with ghost blocks or columns that was the size of one part of a tetromino block that would help the user know where the block would land. I chose to make the columns instead of the ghost blocks and I implemented it fairly easily. I did this by using the playGrid calculations (mentioned in the first and second raylib-tetris posts) and subtracted by one so it could fit inside the grid. I then matched the size of the grid to the size of one piece, I then separated the columns by doing a simple calculation. Now let's get to the more important tasks.
