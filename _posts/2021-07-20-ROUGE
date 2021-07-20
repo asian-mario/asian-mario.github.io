@@ -1,8 +1,6 @@
 ---
-
 title: "Open_Pong: Introducing; ROUGE"
 date: 2021-07-20
-
 ---
 ## Cleaning Up
 Sorry for the lack of introduction or posts about Open_Pong but it is currently my main project with OpenGL, my aim is to create Pong but its 'modern', something similar to the likes of Tetris Effect. Anyway, after setting up a OpenGL base (from my own repo) I got going on making new classes, objects and more.
