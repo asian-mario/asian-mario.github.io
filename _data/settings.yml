@@ -7,7 +7,7 @@ disqus:
 google_analytics: G-4H5H4CB8SR
 
 menu:
-  - { name: "Current Projects", url: "proj" }
+  - { name: "Current Projects", url: "projects" }
   - { name: "The Archives", url: "resources" }
   - { name: "Github Repos", url: "repo" }
   - { name: "About", url: "about" }
