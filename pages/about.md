@@ -4,4 +4,4 @@ title: About Me
 permalink: /about
 ---
 
-Millennial is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused publishing platform for your publication site or blog. You can find everything you need to get started under documentation. For more information on how to install and use this theme, check out [the documentation]({{ site.github.url }}{% post_url 2016-10-10-getting-started %}).
+Hello there! I am AsianMario [Rangga Gunarto], a 13 year old who is interested in software development & 3D Graphics! Currently, I am making projects and games to learn more about the languages that I know. The blog will be updated frequently, the posts will usually be about current or upcoming projects im working on. There are tons of things to learn so why don't you come along for the ride?
