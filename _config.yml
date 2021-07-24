@@ -1,16 +1,19 @@
-title: [asian-mario, a beginner's journey]
-theme: minima
-skin: dark
-author: asian-mario
-email: ranggagunarto@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Hey there person! I'm a beginner software developer and i'm learning new languages, techniques and generally exploring the world of programming and software development.
-  As of current i have learned python and cpp and have made a few programs and games with cpp and python. 
-  I will regularly update this blog on what i learned, made or just my general thoughts.
+# Site Build Settings
 
-# social links
-github_username:  asianmario
+# jekyll-paginate configuration
+paginate:            5
 
-show_excerpts: true # set to false to remove excerpts on the homepage
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           /:title
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
-google_analytics: G-4H5H4CB8SR
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+title:		           "Millennial"
+description:	       "a minimalist Jekyll theme for running a blog or publication"
+author:              "Paul Le"
+
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#  path: rss-feed.xml
