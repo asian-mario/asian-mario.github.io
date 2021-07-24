@@ -4,7 +4,7 @@ title: "OpenGL_Journey"
 date: 2021-07-14
 author: "AsianMario"
 categories: repo
-tags: [repo]
+tags: [repos]
 image: opengl_logo.png
 ---
 
