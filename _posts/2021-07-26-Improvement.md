@@ -5,7 +5,7 @@ date: 2021-07-26
 author: "AsianMario"
 categories: projects
 tags: [proj]
-image: pongChamp.jpg
+image: pongChamp.png
 ---
 
 ## Improvements & Fixes
@@ -104,3 +104,5 @@ I ended up making a whole class for the scoring and any text rendering (as you c
 Visual Result (note: the score reset bug has been fixed):
 
 <iframe width="480" height="360" src="https://www.youtube.com/embed/CZx2U4x7I-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+This was a bit long but I hoped you enjoyed reading!
