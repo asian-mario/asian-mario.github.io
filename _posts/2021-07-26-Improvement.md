@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Open_Pong: Introducing; ROUGE"
+title: "Open_Pong: Improvements, Fixes & Scoring"
 date: 2021-07-26
 author: "AsianMario"
 categories: projects
