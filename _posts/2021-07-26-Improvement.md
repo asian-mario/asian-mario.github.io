@@ -5,7 +5,7 @@ date: 2021-07-26
 author: "AsianMario"
 categories: projects
 tags: [proj]
-image: pongChamp.png
+image: pongChamp.jpg
 ---
 
 ## Improvements & Fixes
