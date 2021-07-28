@@ -5,7 +5,7 @@ date: 2021-07-29
 author: "AsianMario"
 categories: projects
 tags: [proj]
-image: particles2.png
+image: particles.png
 ---
 
 ## Who doesnt love particles?
