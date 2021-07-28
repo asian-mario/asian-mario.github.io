@@ -49,6 +49,6 @@ After this, I made a Particle System class that would assign a texture and limit
 
 Visual Result:
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/2Dp_QEFi4CE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/2Dp_QEFi4CE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Hope you enjoyed reading!
