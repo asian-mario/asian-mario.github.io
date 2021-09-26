@@ -49,7 +49,7 @@ void Game::removeScreen(Screen* S) {
 	}
 }
 
-{% end highlight %}
+{% endhighlight %}
 
 This will stop rendering the screen & stop updating it because it simply won't exist anymore, **but** it does not actually affect that are inside each screen's 'draw' function. If I deleted the game screen it wouldn't render or update anymore but the objects will still be where they were & remain in the exact same state until a switch and initialize the screen again.
 
