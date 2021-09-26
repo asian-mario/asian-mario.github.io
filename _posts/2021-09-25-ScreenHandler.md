@@ -1,17 +1,10 @@
 ---
-
 layout: post
-
 title: "Open_Pong: Screen Handler"
-
 date: 2021-09-25
-
 author: "AsianMario"
-
 categories: projects
-
 tags: [proj]
-
 image: paused.png
 ---
 
