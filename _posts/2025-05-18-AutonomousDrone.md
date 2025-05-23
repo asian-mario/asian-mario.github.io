@@ -151,7 +151,7 @@ void loop() {
 
 Then it initializes the ESC control pins as PWM inputs which converts the desired motor speeds to a format understandable by the ESC's. The use of the `map()` function converts values to 1000-2000µs. As mentioned in my report, there are three PID values essential: Kp, Ki, and Kd. With the Kp measures how far off the current angle is from the target, which is intially calibrated when the drone starts. Meanwhile, Ki and Kd accumulates the past errors over time and eliminates any residual steady-state errors or 'drift' with the Kd being responsible for 'predicting' future trends by seeing how fast the error is changing, with a higher value equalling to a higher dampening to prevent overshoot correction which may lead to a string of corrections by the PID which will lead the drone to lose control. Once the value of correction is determined by using this formula:
 
-<img src="./correction.png">
+<img src="../assets/img/correction.png">
 
 Where `U(t)` denotes the control signal sent to the motors which will apply a fix from its current orientation to the reference orientation (usually a reference of 0 in this case unless calibrated otherwise). Even though the project would benefit with a MPU-9250 or an external HMC5883L module for a magnetometer to create a 9-axis IMU which would provide better data for the Arduino to handle as the yaw relies on the gyroscope which will lead to tiny errors in gyro integration accumulation which would result in yaw drift and allowing for absolute directional decisions, the current MPU6050 is sufficient enough with its 6-axis IMU to maintain a stable hover and flight. Initially, I sent raw data from the IMU to the Arduino which then a complimentary filter would be applied to which initially caused major issues in sensor reading which in turn lead me to apply DMP. Furthermore, a killswitch is implemented when the drone exceeds a certain rotational threshold, killing the motors to prevent damage to the drone and injury to those around it by comparing the angle of roll from the MPU6050 to a threshold. A more in-depth report on the mathematical implementation of this system could be found on my report [here](https://github.com/asian-mario/autonomous-drone-poc/blob/main/report/DroneRep.pdf)
 
@@ -220,7 +220,7 @@ encodings = face_recognition.face_encodings(frame_uint8, [loc])
 
 By using the CNN option it triggers dlib's GPU-accelerated convolutional neural network detector which if a CUDA GPU is found, your module of dlib WILL need to be precompiled with CUDA support if you want to use this feature. Otherwise, use the `hog` setup instead which runs on the CPU but is much slower. Then, it matches any faces with any reference data on the server, its tolerance can be adjusted. This is essentially a vector operation using NumPy. The web interface will then supply the video stream and highlight any faces in the frame, if unrecognized a box will surround the face with an `UNKNOWN` tag while it will highlight any known faces and its closest reference photo. 
 
-<img src="./facereg.png">
+<img src="../assets/img/facereg.png">
 
 Again, if you would like to explore the more academic and an even more in-depth analysis you can view it [here](https://github.com/asian-mario/autonomous-drone-poc/blob/main/report/DroneRep.pdf)
 
